@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sudo pacman -Syyy &&
+sudo pacman -S libcanberra-pulse pamixer pulseaudio-alsa alsa-firmware alsa-plugins alsa-utils pulseaudio volumeicon pasystray pavucontrol paprefs avahi gtk3 libnotify libx11 xorg xorg-server xorg-xinit xorg-apps xorg-twm xorg-xclock xorg-xrdb xorg-xprop xorg-xkill xorg-xclipboard xorg-docs xorg-fonts-100dpi xorg-fonts-75dpi xorg-font-alias-100dpi xorg-fonts-alias-75dpi xorg-fonts-alias-misc xorg-fonts-encodings xorg-fonts-type1 xorg-font-util xf86-video-ati xf86-video-amdgpu xf86-input-libinput
