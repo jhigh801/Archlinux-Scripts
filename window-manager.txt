@@ -1,4 +1,2 @@
-#!/bin/sh
 
-sudo pacman -Syyy &&
-sudo pacman -S --needed awesome vicious dex cairo dbus gsk-pixbuf2 imlib2 libxdg-basedir libxdgcommon libxdgcommon-x11 lua53 lua53-lgi pango startup-notification xcb-util-cursor xcb-util-keysyms xcb-util-wm xcb-util-xrm xorg-xmessage rlwrap asciidoc cmake docbook-xsl doxygen imagemagick ldoc ttf-font ttf-dejavu ttf-liberation ttf-bitstream-vera ttf-croscore ttf-ibm-plex xmlto quodlibet
+awesome vicious dex cairo dbus gsk-pixbuf2 imlib2 libxdg-basedir libxdgcommon libxdgcommon-x11 lua53 lua53-lgi pango startup-notification xcb-util-cursor xcb-util-keysyms xcb-util-wm xcb-util-xrm xorg-xmessage rlwrap asciidoc cmake docbook-xsl doxygen imagemagick ldoc ttf-font ttf-dejavu ttf-liberation ttf-bitstream-vera ttf-croscore ttf-ibm-plex xmlto quodlibet
