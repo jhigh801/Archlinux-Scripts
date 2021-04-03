@@ -1,5 +1,5 @@
-#!/bin/sh
 
 
-sudo arch-chroot /mnt && 
+
+arch-chroot /mnt && 
 echo "Script is done!"
