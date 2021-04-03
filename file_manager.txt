@@ -1,9 +1,9 @@
-#!/bin/sh
 
 
 
-sudo pacman -Syyy &&
-sudo pacman -S --needed ranger atool mediainfo lynx libcaca highlight ffmpegthumbnailer odt2txt perl-image-exiftool poppler python-chardet transmission-cli ueberzug w3m python-pytest bzip2 cpio gzip lhasa lzop unace unrar unzip xz zip nnn tar &&
 
-sudo pacman -S --needed xdg-utils lxmenu-data libfm-gtk2 gvfs xarchiver pcmanfm
+pacman -Syyy &&
+pacman -S --needed ranger atool mediainfo lynx libcaca highlight ffmpegthumbnailer odt2txt perl-image-exiftool poppler python-chardet transmission-cli ueberzug w3m python-pytest bzip2 cpio gzip lhasa lzop unace unrar unzip xz zip nnn tar &&
+
+pacman -S --needed xdg-utils lxmenu-data libfm-gtk2 gvfs xarchiver pcmanfm
    
