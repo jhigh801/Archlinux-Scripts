@@ -1,4 +1,0 @@
-
-
-
-    mate-desktop mate-terminal caja pluma engrampa atril mate-control-center mate-media mate-panel mate-screensaver mate-session-manager mate-settings-daemon mate-utils adapta-gtk-theme eom marco mate-applet-dock mate-applets mate-applet-streamer mate-backgrounds mate-calc mate-common mate-icon-theme mate-icon-theme-faenza mate-menus mate-notification-daemon mate-polkit mate-power-manager mate-sensors-applet mate-settings-daemon mate-system-monitor mate-themes mate-user-guide mate-user-share mozo caja-image-converter caja-open-terminal caja-sendto caja-share caja-wallpaper caja-xattr-tags python-caja filemanager-actions
