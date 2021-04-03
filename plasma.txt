@@ -1,4 +1,0 @@
-
-
-sudo pacman -S --needed plasma-desktop kdeplasma-addons plasma-meta kde-accessibility-meta kde-applications-meta kde-games-meta kde-graphics-meta kde-pim-meta kde-multimedia-meta kdepim-addons kde-system-meta kde-utilities-meta kde-network-meta kde-sdk-meta
-
