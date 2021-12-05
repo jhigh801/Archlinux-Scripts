@@ -10,21 +10,15 @@ sgdisk -Z  /dev/sda
 ## set 2048 alignment
 sgdisk -a 2048 -o  /dev/sda
 ## creating partitions
-sgdisk -n 1:2048:616447 -t 1:ef00
-sgdisk -n 2:616448:557410303 -t 2:8300
-sgdisk -n 3:557410304:955869183 -t 3:8302
-sgdisk -n 4:955869184:976773134 -t 4:8200
+sgdisk -n 1::+300M --typecode=1:ef00 --change-name=2:'EFIBOOT'
+sgdisk -n 2::-0 --typecode=:8300 --change-name=2:'ROOT' 
 ## making filesystems
 mkfs.vfat -F32  /dev/sda1
 mkfa.ext4 /dev/sda2
-mkfs.ext4 /dev/sda3
-mkswap /dev/sda4
-swapon /dev/sda4
 ## mounting partitions
 mount /dev/sda2  /mnt
-mkdir -p /mnt/{boot,home}
+mkdir -p /mnt/boot
 mount /dev/sda1  /mnt/boot
-mount /dev/sda3  /mnt/home
 ## time syncronisation
 timedatectl set-ntp true
 ## pacman key install
