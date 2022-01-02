@@ -60,14 +60,14 @@ echo "127.0.1.1       Arch-Plasma.localdomain   Arch-Plasma"  >>  /etc/hosts
 ## setting root password
 passwd root
 ## Creating User
-useradd -m -g users -G log,sys,network,floppy,scanner,power,rfkill,users,audio,video,lp,wheel,adm  -s  /bin/bash  jon
+useradd -m -G  log,sys,network,floppy,scanner,power,rfkill,users,audio,video,lp,wheel,adm  -s  /bin/bash  jon
 ## set passwd jon
 passwd jon
 ## editing sudoers file
 EDITOR=nano visudo
 ## installing grub,efibootmgr,efivar, & amd microcode
 pacman -S --noconfirm grub efibootmgr efivar amd-ucode
-grub-install --efi-directory=/boot    /dev/sda
+grub-install --target=x86_64-efi  --efi-directory=/efi  --bootloader-id=GRUB --recheck  
 grub-mkconfig -o  /boot/grub/grub.cfg
 ## enabling services
 systemctl enable NetworkManager.service
@@ -85,5 +85,5 @@ pacman -S xorg xorg-server xorg-apps xorg-xinit picom xf86-video-qxl xf86-video-
 ## exiting chroot
 exit
 ## umounting and rebooting
-umount -a && reboot
+umount -R /mnt && reboot
 ## remove media from system before booting up
