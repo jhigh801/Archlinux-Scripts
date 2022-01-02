@@ -60,7 +60,7 @@ echo "127.0.1.1       Arch-Plasma.localdomain   Arch-Plasma"  >>  /etc/hosts
 ## setting root password
 passwd root
 ## Creating User
-useradd -m -G  log,sys,network,floppy,scanner,power,rfkill,users,audio,video,lp,wheel,adm  -s  /bin/bash  jon
+useradd -m -G  log,sys,network,floppy,scanner,power,rfkill,users,audio,video,storage,lp,wheel,adm  -s  /bin/bash  jon
 ## set passwd jon
 passwd jon
 ## editing sudoers file
