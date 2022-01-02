@@ -23,8 +23,8 @@ mkswap /dev/sda5
 swapon /dev/sda5
 ## mounting partitions
 mount /dev/sda3  /mnt
-mkdir -p /mnt/{boot,home}
-mount /dev/sda2  /mnt/boot
+mkdir -p /mnt/{efi,home}
+mount /dev/sda2  /mnt/efi
 mount /dev/sda4  /dev/sda4
 ## time syncronisation
 timedatectl set-ntp true
