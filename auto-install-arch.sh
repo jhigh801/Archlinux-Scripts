@@ -25,7 +25,7 @@ swapon /dev/sda5
 mount /dev/sda3  /mnt
 mkdir -p /mnt/{efi,home}
 mount /dev/sda2  /mnt/efi
-mount /dev/sda4  /dev/sda4
+mount /dev/sda4  /mnt/home
 ## time syncronisation
 timedatectl set-ntp true
 ## pacman key install
