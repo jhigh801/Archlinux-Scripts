@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ## =================================== Awesome Window Manager {{{
-sudo pacman -S --noconfirm --needed awesome cairo dbus libxkbcommon-x11 gdk-pixbuf2 imlib2 libxdg-basedir libxkbcommon  lua53 lua53-lgi pango startup-notification xcb-util xcb-util-cursor xcb-util-keysyms xcb-util-wm xcb-util-xrm xorg-xmessage ttf-dejavu ttf-liberation ttf-bitstream-vera ttf-droid gnu-free-fonts noto-fonts ttf-croscore ttf-ibm-plex rlwrap dex vicious asciidoctor xmlto imagemagick ldoc cmake extra-cmake-modules doxygen docbook-xsl
+sudo pacman -S --noconfirm --needed awesome cairo dbus libxkbcommon-x11 gdk-pixbuf2 imlib2 libxdg-basedir libxkbcommon lua53 lua53-lgi pango startup-notification xcb-util xcb-util-cursor xcb-util-keysyms xcb-util-wm xcb-util-xrm xorg-xmessage ttf-dejavu ttf-liberation ttf-bitstream-vera ttf-droid gnu-free-fonts noto-fonts ttf-croscore ttf-ibm-plex rlwrap dex vicious asciidoctor xmlto imagemagick ldoc cmake extra-cmake-modules doxygen docbook-xsl
 
 ## }}}
 ## =================================== Creating Directory {{{
