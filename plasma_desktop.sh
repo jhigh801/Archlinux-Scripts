@@ -12,7 +12,7 @@ swapon /dev/sda4
 
 # -------------- Mounting Partitions {{{
 mount /dev/sda2  /mnt
-mkdir -p  /mnt/{boot/efi.home}
+mkdir -p  /mnt/{boot/efi,home}
 mount /dev/sda1  /mnt/boot/efi
 mount /dev/sda3  /mnt/home
 
