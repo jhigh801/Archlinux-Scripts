@@ -1,0 +1,2 @@
+sudo pacman -Syyy && sudo pacman -S networkmanager network-manager-applet nm-connection-editor iwd iw bluez bluez-utils bluez-libs blue-tools wpa_supplicant wireless_tools wireless-regdb reflector rsync grub efibootmgr efivar amd-ucode intel-ucode tk tcl tlp hddtemp smartmontools cups cups-pdf cups-browsed cups-pk-helper cups-filters ghostscript gutenprint system-config-printer python-pillow hplip python-pycups base-devel sudo go git geoip geoip-database geoip-database-extra geoclue --noconfirm --needed
+echo "The Script is now Completed!"
