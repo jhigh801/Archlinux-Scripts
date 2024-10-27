@@ -10,6 +10,7 @@ systemctl enable tlp.service
 systemctl enable reflector.service
 systemctl enable rsyncd.service
 systemctl enable avahi-daemon.service
+systemctl enable fancontrol.service
 systemctl enable systemd-resolved.service
 systemctl enable systemd-timesyncd.service
 systemctl enable cups.service
