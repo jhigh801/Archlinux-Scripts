@@ -5,6 +5,6 @@ sudo pacman -Syy ; sudo pacman -S --noconfirm --needed cups cups-pk-helper cups-
 
 ## enabling Cups into Systemd
 sudo systemctl enable cups.service
-
+sudo systemctl enable cups-browsed.service
 echo "This Script is Complete!"
 ## }}}
