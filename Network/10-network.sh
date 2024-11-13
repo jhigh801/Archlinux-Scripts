@@ -6,6 +6,7 @@ sudo pacman -Syy ; sudo pacman -S --noconfirm --needed networkmanager network-ma
 ## ------------------------ enabling Network Apps {{{
 sudo systemctl enable NetworkManager.service
 sudo systemctl enable iwd.service
+sudo systemctl enable bluetooth.service
 ## }}}
 
 echo "This Script is now Complete!"
