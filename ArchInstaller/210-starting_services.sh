@@ -10,7 +10,7 @@ sudo systemctl start tlp.service
 # sudo systemctl start reflector.service
 sudo systemctl start rsyncd.service
 sudo systemctl start avahi-daemon.service
-sudo systemctl stsrt fancontrol.service
+sudo systemctl start fancontrol.service
 sudo systemctl start systemd-resolved.service
 sudo systemctl start systemd-timesyncd.service
 sudo systemctl start cups.service
