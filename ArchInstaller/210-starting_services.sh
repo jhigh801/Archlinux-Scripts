@@ -7,7 +7,9 @@ sudo systemctl start wpa_supplicant.service
 sudo systemctl start hddtemp.service
 sudo systemctl start iwd.service
 sudo systemctl start tlp.service
-# sudo systemctl start reflector.service
+sudo systemctl start reflector.service
+sudo systemctl start reflector.timer
+sudo systemctl enable reflector.timer
 sudo systemctl start rsyncd.service
 sudo systemctl start avahi-daemon.service
 sudo systemctl start fancontrol.service
