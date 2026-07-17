@@ -16,5 +16,4 @@ subversion
 cvs 
 mercurial 
 gnome-keyring
-libgnome-keyring
 
